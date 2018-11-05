@@ -18,6 +18,7 @@ class StudioGhibliContainer extends Component {
   render(){
     return (
       <div className="film-container">
+      <img src="images/logo.png" className="logo"/>
         <StudioGhibliList className="film-list" films={this.state.films}/>
       </div>
     );
