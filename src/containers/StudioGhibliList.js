@@ -7,7 +7,7 @@ const StudioGhibliList = (props) => {
   } else {
     return (
       <div className="film-list">
-        {props.film.map((film, index) => {
+        {props.films.map((film, index) => {
           return <Film film={film} key={index} />
         })}
       </div>

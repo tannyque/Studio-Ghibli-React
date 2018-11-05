@@ -7,8 +7,8 @@ const Film = (props) => {
         <h2>{props.film.title}</h2>
         <p>{props.film.description}</p>
         <ul>
-          <li>Release Date: {this.film.release_date}</li>
-          <li>Rating: {this.film.rt_score}%</li>
+          <li>Release Date: {props.film.release_date}</li>
+          <li>Rating: {props.film.rt_score}%</li>
         </ul>
       </div>
     </div>
