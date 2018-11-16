@@ -2,9 +2,7 @@ import React from 'react';
 import Film from '../components/Film';
 
 const StudioGhibliList = (props) => {
-  if (props.films === null) {
-    return "Loading";
-  } else {
+  if (!props.films) return null;
     return (
       <div className="film-list">
         {props.films.map((film, index) => {
@@ -12,7 +10,6 @@ const StudioGhibliList = (props) => {
         })}
       </div>
     );
-  }
 }
 
 export default StudioGhibliList;

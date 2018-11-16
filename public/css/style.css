@@ -7,12 +7,16 @@ body {
   clear: left;
 }
 
-/* #director-dropdown{
-  font-weight: bold;
+#director-dropdown{
   text-align: center;
   padding-top: 5px;
   padding-bottom: 10px;
-} */
+}
+
+select {
+  font-size: 16px;
+  font-weight: bold;
+}
 
 /* Card formatting */
 
